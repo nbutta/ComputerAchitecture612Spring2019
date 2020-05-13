@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Apr 30 18:15:44 2019
+# Process ID: 8852
+# Current directory: C:/Users/j39950/Desktop/Multi Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5708 C:\Users\j39950\Desktop\Multi Cycle\mccompFPGA.xpr
+# Log file: C:/Users/j39950/Desktop/Multi Cycle/vivado.log
+# Journal file: C:/Users/j39950/Desktop/Multi Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/j39950/3rd Party IP/jtaglet/jtaglet/ff_sync.v', nor could it be found using path 'C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet/ff_sync.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/j39950/3rd Party IP/jtaglet/jtaglet/jtag_reg.v', nor could it be found using path 'C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet/jtag_reg.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/j39950/3rd Party IP/jtaglet/jtaglet/jtag_state_machine.v', nor could it be found using path 'C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet/jtag_state_machine.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/j39950/3rd Party IP/jtaglet/jtaglet.v', nor could it be found using path 'C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/j39950/Common/uram.v', nor could it be found using path 'C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/Common/uram.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/j39950/Common/mfp_nexys4_ddr.xdc', nor could it be found using path 'C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/Common/mfp_nexys4_ddr.xdc'.
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 30 18:17:31 2019...

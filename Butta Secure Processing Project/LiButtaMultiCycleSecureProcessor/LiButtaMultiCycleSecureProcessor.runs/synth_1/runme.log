@@ -1,0 +1,32 @@
+
+*** Running vivado
+    with args -log mfp_nexys4_ddr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mfp_nexys4_ddr.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source mfp_nexys4_ddr.tcl -notrace
+Command: synth_design -top mfp_nexys4_ddr -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12172 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 330.574 ; gain = 118.137
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mfp_nexys4_ddr' [C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mfp_nexys4_ddr.v:18]
+ERROR: [Synth 8-439] module 'clk_wiz_0' not found [C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mfp_nexys4_ddr.v:36]
+ERROR: [Synth 8-285] failed synthesizing module 'mfp_nexys4_ddr' [C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mfp_nexys4_ddr.v:18]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 367.371 ; gain = 154.934
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu May 09 12:53:40 2019...

@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar  7 11:31:51 2019
+# Process ID: 15992
+# Current directory: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13204 C:\Users\nickb\Documents\JHU\612\repo\mips-cpu\RTL\CPUs\Multi Cycle\mccompFPGA.xpr
+# Log file: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/vivado.log
+# Journal file: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+set_property -name {xsim.simulate.runtime} -value {1000ns} -objects [get_filesets sim_1]
+launch_simulation
+source mccomp_tb.tcl
+run 10 us
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu}} 
+current_wave_config {Untitled 2}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit}} 
+run 10 us
+restart
+run 10 us
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/clk}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/clrn}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/pc}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/inst}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/alu}} {{/mccomp_tb/mccomp_sys/mc_cpu/madr}} {{/mccomp_tb/mccomp_sys/mc_cpu/tomem}} {{/mccomp_tb/mccomp_sys/mc_cpu/state}} {{/mccomp_tb/mccomp_sys/mc_cpu/wmem}} {{/mccomp_tb/mccomp_sys/mc_cpu/op}} {{/mccomp_tb/mccomp_sys/mc_cpu/rs}} {{/mccomp_tb/mccomp_sys/mc_cpu/rt}} {{/mccomp_tb/mccomp_sys/mc_cpu/rd}} {{/mccomp_tb/mccomp_sys/mc_cpu/func}} {{/mccomp_tb/mccomp_sys/mc_cpu/imm}} {{/mccomp_tb/mccomp_sys/mc_cpu/addr}} {{/mccomp_tb/mccomp_sys/mc_cpu/aluc}} {{/mccomp_tb/mccomp_sys/mc_cpu/pcsrc}} {{/mccomp_tb/mccomp_sys/mc_cpu/wreg}} {{/mccomp_tb/mccomp_sys/mc_cpu/regrt}} {{/mccomp_tb/mccomp_sys/mc_cpu/m2reg}} {{/mccomp_tb/mccomp_sys/mc_cpu/shift}} {{/mccomp_tb/mccomp_sys/mc_cpu/alusrcb}} {{/mccomp_tb/mccomp_sys/mc_cpu/jal}} {{/mccomp_tb/mccomp_sys/mc_cpu/sext}} {{/mccomp_tb/mccomp_sys/mc_cpu/wpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/wir}} {{/mccomp_tb/mccomp_sys/mc_cpu/iord}} {{/mccomp_tb/mccomp_sys/mc_cpu/selpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/bpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/npc}} {{/mccomp_tb/mccomp_sys/mc_cpu/qa}} {{/mccomp_tb/mccomp_sys/mc_cpu/qb}} {{/mccomp_tb/mccomp_sys/mc_cpu/alua}} {{/mccomp_tb/mccomp_sys/mc_cpu/alub}} {{/mccomp_tb/mccomp_sys/mc_cpu/wd}} {{/mccomp_tb/mccomp_sys/mc_cpu/r}} {{/mccomp_tb/mccomp_sys/mc_cpu/sa}} {{/mccomp_tb/mccomp_sys/mc_cpu/s16}} {{/mccomp_tb/mccomp_sys/mc_cpu/i32}} {{/mccomp_tb/mccomp_sys/mc_cpu/dis}} {{/mccomp_tb/mccomp_sys/mc_cpu/jpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/reg_dest}} {{/mccomp_tb/mccomp_sys/mc_cpu/wn}} {{/mccomp_tb/mccomp_sys/mc_cpu/z}} {{/mccomp_tb/mccomp_sys/mc_cpu/rega}} {{/mccomp_tb/mccomp_sys/mc_cpu/regb}} {{/mccomp_tb/mccomp_sys/mc_cpu/regc}} {{/mccomp_tb/mccomp_sys/mc_cpu/data}} {{/mccomp_tb/mccomp_sys/mc_cpu/opa}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_addi}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_beq}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_j}} 
+current_wave_config {Untitled 3}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/rf/register[1]}} 
+restart
+run 100 us
+restart
+run 20 us

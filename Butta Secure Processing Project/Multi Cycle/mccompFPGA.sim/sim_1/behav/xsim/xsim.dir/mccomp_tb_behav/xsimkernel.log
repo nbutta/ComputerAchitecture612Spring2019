@@ -1,0 +1,4 @@
+Running: xsim.dir/mccomp_tb_behav/xsimk.exe -simmode gui -wdb mccomp_tb_behav.wdb -simrunnum 0 -socket 61023
+Design successfully loaded
+Design Loading Memory Usage: 5628 KB (Peak: 5628 KB)
+Design Loading CPU Usage: 62 ms

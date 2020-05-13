@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Thu May 09 12:53:14 2019
+# Process ID: 10688
+# Current directory: C:/Users/j39950/Desktop/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log mfp_nexys4_ddr.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mfp_nexys4_ddr.tcl
+# Log file: C:/Users/j39950/Desktop/project_1/project_1.runs/synth_1/mfp_nexys4_ddr.vds
+# Journal file: C:/Users/j39950/Desktop/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mfp_nexys4_ddr.tcl -notrace

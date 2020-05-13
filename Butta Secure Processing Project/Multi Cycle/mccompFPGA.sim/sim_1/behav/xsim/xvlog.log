@@ -1,0 +1,110 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/addsub32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_cipher_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_cipher_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_key_expand_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_key_expand_128
+INFO: [VRFC 10-2458] undeclared symbol w1_0, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_key_expand_128.v:78]
+INFO: [VRFC 10-2458] undeclared symbol w1_1, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_key_expand_128.v:79]
+INFO: [VRFC 10-2458] undeclared symbol w1_2, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_key_expand_128.v:80]
+INFO: [VRFC 10-2458] undeclared symbol w1_3, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_key_expand_128.v:81]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_rcon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_rcon
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/aes_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_sbox
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/buzzer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buzzer
+INFO: [VRFC 10-311] analyzing module microsCounter
+INFO: [VRFC 10-311] analyzing module toggleBuzz
+INFO: [VRFC 10-311] analyzing module regR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/examples/debug_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/new/dff128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff128
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dffe128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe128
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dffe32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet/ff_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ff_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/new/gcm_aes_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gcm_aes_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/gcm_aes_v0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gcm_aes_v0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/rtl/gfm128_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gfm128_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet/jtag_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtag_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet/jtag_state_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtag_state_machine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/3rd Party IP/jtaglet/jtaglet.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jtaglet
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/new/mccomp_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mccomp_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_sys.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mccomp_sys
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mccpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mccu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/new/mcgpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mcgpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/milliscounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module milliscounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/new/seqram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seqram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/sevensegdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/sevensegtimer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegtimer
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/Common/sigram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sigram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/spi_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_interface
+INFO: [VRFC 10-311] analyzing module clockdiv
+INFO: [VRFC 10-311] analyzing module SPIinitsendFSM
+INFO: [VRFC 10-311] analyzing module SPItransmitFSM
+INFO: [VRFC 10-311] analyzing module regRen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/Common/uram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mccomp_tb
+INFO: [VRFC 10-2458] undeclared symbol BTNU, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v:41]
+INFO: [VRFC 10-2458] undeclared symbol BTND, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v:41]
+INFO: [VRFC 10-2458] undeclared symbol BTNL, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v:41]
+INFO: [VRFC 10-2458] undeclared symbol BTNC, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v:41]
+INFO: [VRFC 10-2458] undeclared symbol BTNR, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v:41]
+INFO: [VRFC 10-2458] undeclared symbol UART_TXD_IN, assumed default net type wire [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v:49]
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_tb.v:69]

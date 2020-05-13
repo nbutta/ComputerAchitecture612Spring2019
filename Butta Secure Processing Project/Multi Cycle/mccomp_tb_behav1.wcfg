@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mccomp_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mccomp_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="15000000000fs"></ZoomStartTime>
+      <ZoomEndTime time="34935170179fs"></ZoomEndTime>
+      <Cursor1Time time="25696921000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="471"></NameColumnWidth>
+      <ValueColumnWidth column_width="197"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="152" />
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/fetched_signature" type="array">
+      <obj_property name="ElementShortName">fetched_signature[127:0]</obj_property>
+      <obj_property name="ObjectShortName">fetched_signature[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/encrypted_ir" type="array">
+      <obj_property name="ElementShortName">encrypted_ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">encrypted_ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_en" type="logic">
+      <obj_property name="ElementShortName">gcm_aes_en</obj_property>
+      <obj_property name="ObjectShortName">gcm_aes_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/decrypted_ir" type="array">
+      <obj_property name="ElementShortName">decrypted_ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decrypted_ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/calculated_signature" type="array">
+      <obj_property name="ElementShortName">calculated_signature[127:0]</obj_property>
+      <obj_property name="ObjectShortName">calculated_signature[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_done" type="logic">
+      <obj_property name="ElementShortName">gcm_aes_done</obj_property>
+      <obj_property name="ObjectShortName">gcm_aes_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/control_unit/wir" type="logic">
+      <obj_property name="ElementShortName">wir</obj_property>
+      <obj_property name="ObjectShortName">wir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_addi" type="logic">
+      <obj_property name="ElementShortName">i_addi</obj_property>
+      <obj_property name="ObjectShortName">i_addi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/rf/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/cs" type="logic">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/ram" type="array">
+      <obj_property name="ElementShortName">ram[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/addrmasked" type="array">
+      <obj_property name="ElementShortName">addrmasked[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrmasked[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/A_WIDTH" type="array">
+      <obj_property name="ElementShortName">A_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/INIT_FILE" type="array">
+      <obj_property name="ElementShortName">INIT_FILE[647:0]</obj_property>
+      <obj_property name="ObjectShortName">INIT_FILE[647:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/system_ram/READ_DELAY" type="array">
+      <obj_property name="ElementShortName">READ_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/frommem" type="array">
+      <obj_property name="ElementShortName">frommem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frommem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/fromsigmem" type="array">
+      <obj_property name="ElementShortName">fromsigmem[127:0]</obj_property>
+      <obj_property name="ObjectShortName">fromsigmem[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/fromseqmem" type="array">
+      <obj_property name="ElementShortName">fromseqmem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fromseqmem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/alu" type="array">
+      <obj_property name="ElementShortName">alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/madr" type="array">
+      <obj_property name="ElementShortName">madr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">madr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/datatomem" type="array">
+      <obj_property name="ElementShortName">datatomem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datatomem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/sigtomem" type="array">
+      <obj_property name="ElementShortName">sigtomem[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sigtomem[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/seqtomem" type="array">
+      <obj_property name="ElementShortName">seqtomem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seqtomem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/wmem" type="logic">
+      <obj_property name="ElementShortName">wmem</obj_property>
+      <obj_property name="ObjectShortName">wmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/encrypted_ir" type="array">
+      <obj_property name="ElementShortName">encrypted_ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">encrypted_ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/op" type="array">
+      <obj_property name="ElementShortName">op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/func" type="array">
+      <obj_property name="ElementShortName">func[5:0]</obj_property>
+      <obj_property name="ObjectShortName">func[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/addr" type="array">
+      <obj_property name="ElementShortName">addr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/aluc" type="array">
+      <obj_property name="ElementShortName">aluc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluc[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/pcsrc" type="array">
+      <obj_property name="ElementShortName">pcsrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/wreg" type="logic">
+      <obj_property name="ElementShortName">wreg</obj_property>
+      <obj_property name="ObjectShortName">wreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/regrt" type="logic">
+      <obj_property name="ElementShortName">regrt</obj_property>
+      <obj_property name="ObjectShortName">regrt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/m2reg" type="logic">
+      <obj_property name="ElementShortName">m2reg</obj_property>
+      <obj_property name="ObjectShortName">m2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/shift" type="logic">
+      <obj_property name="ElementShortName">shift</obj_property>
+      <obj_property name="ObjectShortName">shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/alusrcb" type="array">
+      <obj_property name="ElementShortName">alusrcb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alusrcb[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/jal" type="logic">
+      <obj_property name="ElementShortName">jal</obj_property>
+      <obj_property name="ObjectShortName">jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/sext" type="logic">
+      <obj_property name="ElementShortName">sext</obj_property>
+      <obj_property name="ObjectShortName">sext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/wpc" type="logic">
+      <obj_property name="ElementShortName">wpc</obj_property>
+      <obj_property name="ObjectShortName">wpc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/wir" type="logic">
+      <obj_property name="ElementShortName">wir</obj_property>
+      <obj_property name="ObjectShortName">wir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/iord" type="logic">
+      <obj_property name="ElementShortName">iord</obj_property>
+      <obj_property name="ObjectShortName">iord</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/selpc" type="logic">
+      <obj_property name="ElementShortName">selpc</obj_property>
+      <obj_property name="ObjectShortName">selpc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/bpc" type="array">
+      <obj_property name="ElementShortName">bpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bpc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/npc" type="array">
+      <obj_property name="ElementShortName">npc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/qa" type="array">
+      <obj_property name="ElementShortName">qa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/qb" type="array">
+      <obj_property name="ElementShortName">qb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/alua" type="array">
+      <obj_property name="ElementShortName">alua[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alua[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/alub" type="array">
+      <obj_property name="ElementShortName">alub[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alub[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/wd" type="array">
+      <obj_property name="ElementShortName">wd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/r" type="array">
+      <obj_property name="ElementShortName">r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/sa" type="array">
+      <obj_property name="ElementShortName">sa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/s16" type="array">
+      <obj_property name="ElementShortName">s16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s16[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/i32" type="array">
+      <obj_property name="ElementShortName">i32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/dis" type="array">
+      <obj_property name="ElementShortName">dis[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dis[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/jpc" type="array">
+      <obj_property name="ElementShortName">jpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jpc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/reg_dest" type="array">
+      <obj_property name="ElementShortName">reg_dest[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_dest[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/wn" type="array">
+      <obj_property name="ElementShortName">wn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/z" type="logic">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/rega" type="array">
+      <obj_property name="ElementShortName">rega[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rega[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/regb" type="array">
+      <obj_property name="ElementShortName">regb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/regc" type="array">
+      <obj_property name="ElementShortName">regc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/data" type="array">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/opa" type="array">
+      <obj_property name="ElementShortName">opa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_en" type="logic">
+      <obj_property name="ElementShortName">gcm_aes_en</obj_property>
+      <obj_property name="ObjectShortName">gcm_aes_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/write_signature_reg" type="logic">
+      <obj_property name="ElementShortName">write_signature_reg</obj_property>
+      <obj_property name="ObjectShortName">write_signature_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/write_encrypted_ir" type="logic">
+      <obj_property name="ElementShortName">write_encrypted_ir</obj_property>
+      <obj_property name="ObjectShortName">write_encrypted_ir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_done" type="logic">
+      <obj_property name="ElementShortName">gcm_aes_done</obj_property>
+      <obj_property name="ObjectShortName">gcm_aes_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_rst" type="logic">
+      <obj_property name="ElementShortName">gcm_aes_rst</obj_property>
+      <obj_property name="ObjectShortName">gcm_aes_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/dii_data" type="array">
+      <obj_property name="ElementShortName">dii_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dii_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/dii_data_size" type="array">
+      <obj_property name="ElementShortName">dii_data_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dii_data_size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/dii_data_vld" type="logic">
+      <obj_property name="ElementShortName">dii_data_vld</obj_property>
+      <obj_property name="ObjectShortName">dii_data_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/dii_data_type" type="logic">
+      <obj_property name="ElementShortName">dii_data_type</obj_property>
+      <obj_property name="ObjectShortName">dii_data_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/dii_last_word" type="logic">
+      <obj_property name="ElementShortName">dii_last_word</obj_property>
+      <obj_property name="ObjectShortName">dii_last_word</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/cii_K" type="array">
+      <obj_property name="ElementShortName">cii_K[127:0]</obj_property>
+      <obj_property name="ObjectShortName">cii_K[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/cii_ctl_vld" type="logic">
+      <obj_property name="ElementShortName">cii_ctl_vld</obj_property>
+      <obj_property name="ObjectShortName">cii_ctl_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/cii_IV_vld" type="logic">
+      <obj_property name="ElementShortName">cii_IV_vld</obj_property>
+      <obj_property name="ObjectShortName">cii_IV_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/dii_data_not_ready" type="logic">
+      <obj_property name="ElementShortName">dii_data_not_ready</obj_property>
+      <obj_property name="ObjectShortName">dii_data_not_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/Out_data" type="array">
+      <obj_property name="ElementShortName">Out_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">Out_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/Out_vld" type="logic">
+      <obj_property name="ElementShortName">Out_vld</obj_property>
+      <obj_property name="ObjectShortName">Out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/Tag_vld" type="logic">
+      <obj_property name="ElementShortName">Tag_vld</obj_property>
+      <obj_property name="ObjectShortName">Tag_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/Out_data_size" type="array">
+      <obj_property name="ElementShortName">Out_data_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Out_data_size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/Out_last_word" type="logic">
+      <obj_property name="ElementShortName">Out_last_word</obj_property>
+      <obj_property name="ObjectShortName">Out_last_word</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_out" type="array">
+      <obj_property name="ElementShortName">gcm_aes_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">gcm_aes_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/calculated_signature" type="array">
+      <obj_property name="ElementShortName">calculated_signature[127:0]</obj_property>
+      <obj_property name="ObjectShortName">calculated_signature[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/fetched_signature" type="array">
+      <obj_property name="ElementShortName">fetched_signature[127:0]</obj_property>
+      <obj_property name="ObjectShortName">fetched_signature[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/fetched_seq_num" type="array">
+      <obj_property name="ElementShortName">fetched_seq_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fetched_seq_num[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/mc_cpu/decrypted_ir" type="array">
+      <obj_property name="ElementShortName">decrypted_ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decrypted_ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/SI_Reset_N" type="logic">
+      <obj_property name="ElementShortName">SI_Reset_N</obj_property>
+      <obj_property name="ObjectShortName">SI_Reset_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/SI_ClkIn" type="logic">
+      <obj_property name="ElementShortName">SI_ClkIn</obj_property>
+      <obj_property name="ObjectShortName">SI_ClkIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/q" type="array">
+      <obj_property name="ElementShortName">q[2:0]</obj_property>
+      <obj_property name="ObjectShortName">q[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/alu" type="array">
+      <obj_property name="ElementShortName">alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/adr" type="array">
+      <obj_property name="ElementShortName">adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/tom" type="array">
+      <obj_property name="ElementShortName">tom[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tom[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/fromm" type="array">
+      <obj_property name="ElementShortName">fromm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fromm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/ir" type="array">
+      <obj_property name="ElementShortName">ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/memclk" type="logic">
+      <obj_property name="ElementShortName">memclk</obj_property>
+      <obj_property name="ObjectShortName">memclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_Switch" type="array">
+      <obj_property name="ElementShortName">IO_Switch[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_Switch[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_PB" type="array">
+      <obj_property name="ElementShortName">IO_PB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_PB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_LED" type="array">
+      <obj_property name="ElementShortName">IO_LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_7SEGEN_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEGEN_N[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEGEN_N[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_7SEG_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEG_N[6:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEG_N[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_BUZZ" type="logic">
+      <obj_property name="ElementShortName">IO_BUZZ</obj_property>
+      <obj_property name="ObjectShortName">IO_BUZZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_SPI_SDO" type="logic">
+      <obj_property name="ElementShortName">IO_SPI_SDO</obj_property>
+      <obj_property name="ObjectShortName">IO_SPI_SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_SPI_RS" type="logic">
+      <obj_property name="ElementShortName">IO_SPI_RS</obj_property>
+      <obj_property name="ObjectShortName">IO_SPI_RS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/IO_SPI_SCK" type="logic">
+      <obj_property name="ElementShortName">IO_SPI_SCK</obj_property>
+      <obj_property name="ObjectShortName">IO_SPI_SCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/UART_RX" type="logic">
+      <obj_property name="ElementShortName">UART_RX</obj_property>
+      <obj_property name="ObjectShortName">UART_RX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/JB" type="array">
+      <obj_property name="ElementShortName">JB[8:1]</obj_property>
+      <obj_property name="ObjectShortName">JB[8:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/data_cpu" type="array">
+      <obj_property name="ElementShortName">data_cpu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cpu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/sig_cpu" type="array">
+      <obj_property name="ElementShortName">sig_cpu[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_cpu[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/seq_cpu" type="array">
+      <obj_property name="ElementShortName">seq_cpu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_cpu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/data_mem" type="array">
+      <obj_property name="ElementShortName">data_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/sig_mem" type="array">
+      <obj_property name="ElementShortName">sig_mem[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_mem[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/seq_num_mem" type="array">
+      <obj_property name="ElementShortName">seq_num_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_num_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/data_gpio" type="array">
+      <obj_property name="ElementShortName">data_gpio[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_gpio[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/memout" type="array">
+      <obj_property name="ElementShortName">memout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/sigout" type="array">
+      <obj_property name="ElementShortName">sigout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">sigout[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/seqout" type="array">
+      <obj_property name="ElementShortName">seqout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seqout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/dbg_resetn_cpu" type="logic">
+      <obj_property name="ElementShortName">dbg_resetn_cpu</obj_property>
+      <obj_property name="ObjectShortName">dbg_resetn_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/dbg_halt_cpu" type="logic">
+      <obj_property name="ElementShortName">dbg_halt_cpu</obj_property>
+      <obj_property name="ObjectShortName">dbg_halt_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/wmem" type="logic">
+      <obj_property name="ElementShortName">wmem</obj_property>
+      <obj_property name="ObjectShortName">wmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/HSEL" type="array">
+      <obj_property name="ElementShortName">HSEL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSEL[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/dbg_mem_addr" type="array">
+      <obj_property name="ElementShortName">dbg_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/dbg_mem_din" type="array">
+      <obj_property name="ElementShortName">dbg_mem_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_mem_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/dbg_mem_cs" type="logic">
+      <obj_property name="ElementShortName">dbg_mem_cs</obj_property>
+      <obj_property name="ObjectShortName">dbg_mem_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/dbg_mem_we" type="logic">
+      <obj_property name="ElementShortName">dbg_mem_we</obj_property>
+      <obj_property name="ObjectShortName">dbg_mem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/effectiveMemWE" type="logic">
+      <obj_property name="ElementShortName">effectiveMemWE</obj_property>
+      <obj_property name="ObjectShortName">effectiveMemWE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/effectiveMemCE" type="logic">
+      <obj_property name="ElementShortName">effectiveMemCE</obj_property>
+      <obj_property name="ObjectShortName">effectiveMemCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/effectiveMemAddr" type="array">
+      <obj_property name="ElementShortName">effectiveMemAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">effectiveMemAddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/effectiveRAMDataInput" type="array">
+      <obj_property name="ElementShortName">effectiveRAMDataInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">effectiveRAMDataInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/RAM_FILE" type="array">
+      <obj_property name="ElementShortName">RAM_FILE[647:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_FILE[647:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/mccomp_sys/SIG_FILE" type="array">
+      <obj_property name="ElementShortName">SIG_FILE[799:0]</obj_property>
+      <obj_property name="ObjectShortName">SIG_FILE[799:0]</obj_property>
+   </wvobject>
+</wave_config>

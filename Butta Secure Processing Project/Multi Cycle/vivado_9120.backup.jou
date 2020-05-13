@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Apr 09 14:23:27 2019
+# Process ID: 9120
+# Current directory: C:/Users/j39950/Desktop/Multi Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11228 C:\Users\j39950\Desktop\Multi Cycle\mccompFPGA.xpr
+# Log file: C:/Users/j39950/Desktop/Multi Cycle/vivado.log
+# Journal file: C:/Users/j39950/Desktop/Multi Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.xpr}

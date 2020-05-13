@@ -1,0 +1,148 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 29 15:47:57 2019
+# Process ID: 2116
+# Current directory: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10028 C:\Users\nickb\Documents\JHU\612\repo\mips-cpu\RTL\CPUs\Multi Cycle\mccompFPGA.xpr
+# Log file: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/vivado.log
+# Journal file: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_en}} {{/mccomp_tb/mccomp_sys/mc_cpu/write_signature_reg}} {{/mccomp_tb/mccomp_sys/mc_cpu/write_encrypted_ir}} {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_done}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_size}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_type}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_last_word}} {{/mccomp_tb/mccomp_sys/mc_cpu/cii_K}} {{/mccomp_tb/mccomp_sys/mc_cpu/cii_ctl_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/cii_IV_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_not_ready}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/Tag_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_data_size}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_last_word}} {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_out}} 
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/fromsigmem}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/e_ir}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/u_controller/cycle_delay_D}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_controller/cycle_delay_Q}} 
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/u_controller/state_Q}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_controller/state_D}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/signature}} 
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/decrypted_ir}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+add_files -norecurse {{C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dffe128.v}}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim
+set_property -name {xsim.simulate.runtime} -value {100ms} -objects [get_filesets sim_1]
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/op}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/func}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/clk}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/clrn}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/z}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/gcm_aes_done}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/fetched_signature}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/calculated_signature}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/wpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/wir}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/write_signature_reg}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/write_encrypted_ir}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/gcm_aes_en}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/wmem}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/wreg}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/iord}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/regrt}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/m2reg}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/shift}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/alusrca}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/jal}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/sext}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/aluc}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/alusrcb}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/pcsrc}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/state}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/next_state}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/rtype}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_add}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_sub}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_and}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_or}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_xor}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_sll}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_srl}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_sra}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_jr}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_addi}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_andi}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_ori}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_xori}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_lw}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_sw}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_beq}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_bne}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_lui}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_j}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_jal}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_shift}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/sif}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/sverify}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/scheck}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/sid}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/sexe}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/smem}} {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/swb}} 
+run 20 us
+restart
+run 20 us
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+set_property -name {xsim.simulate.runtime} -value {20us} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {50us} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/rf}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/frommem}} {{/mccomp_tb/mccomp_sys/mc_cpu/fromsigmem}} 
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/frommem}} {{/mccomp_tb/mccomp_sys/mc_cpu/fromsigmem}} {{/mccomp_tb/mccomp_sys/mc_cpu/clk}} {{/mccomp_tb/mccomp_sys/mc_cpu/clrn}} {{/mccomp_tb/mccomp_sys/mc_cpu/pc}} {{/mccomp_tb/mccomp_sys/mc_cpu/inst}} {{/mccomp_tb/mccomp_sys/mc_cpu/alu}} {{/mccomp_tb/mccomp_sys/mc_cpu/madr}} {{/mccomp_tb/mccomp_sys/mc_cpu/tomem}} {{/mccomp_tb/mccomp_sys/mc_cpu/state}} {{/mccomp_tb/mccomp_sys/mc_cpu/wmem}} {{/mccomp_tb/mccomp_sys/mc_cpu/encrypted_ir}} {{/mccomp_tb/mccomp_sys/mc_cpu/op}} {{/mccomp_tb/mccomp_sys/mc_cpu/rs}} {{/mccomp_tb/mccomp_sys/mc_cpu/rt}} {{/mccomp_tb/mccomp_sys/mc_cpu/rd}} {{/mccomp_tb/mccomp_sys/mc_cpu/func}} {{/mccomp_tb/mccomp_sys/mc_cpu/imm}} {{/mccomp_tb/mccomp_sys/mc_cpu/addr}} {{/mccomp_tb/mccomp_sys/mc_cpu/aluc}} {{/mccomp_tb/mccomp_sys/mc_cpu/pcsrc}} {{/mccomp_tb/mccomp_sys/mc_cpu/wreg}} {{/mccomp_tb/mccomp_sys/mc_cpu/regrt}} {{/mccomp_tb/mccomp_sys/mc_cpu/m2reg}} {{/mccomp_tb/mccomp_sys/mc_cpu/shift}} {{/mccomp_tb/mccomp_sys/mc_cpu/alusrcb}} {{/mccomp_tb/mccomp_sys/mc_cpu/jal}} {{/mccomp_tb/mccomp_sys/mc_cpu/sext}} {{/mccomp_tb/mccomp_sys/mc_cpu/wpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/wir}} {{/mccomp_tb/mccomp_sys/mc_cpu/iord}} {{/mccomp_tb/mccomp_sys/mc_cpu/selpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/bpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/npc}} {{/mccomp_tb/mccomp_sys/mc_cpu/qa}} {{/mccomp_tb/mccomp_sys/mc_cpu/qb}} {{/mccomp_tb/mccomp_sys/mc_cpu/alua}} {{/mccomp_tb/mccomp_sys/mc_cpu/alub}} {{/mccomp_tb/mccomp_sys/mc_cpu/wd}} {{/mccomp_tb/mccomp_sys/mc_cpu/r}} {{/mccomp_tb/mccomp_sys/mc_cpu/sa}} {{/mccomp_tb/mccomp_sys/mc_cpu/s16}} {{/mccomp_tb/mccomp_sys/mc_cpu/i32}} {{/mccomp_tb/mccomp_sys/mc_cpu/dis}} {{/mccomp_tb/mccomp_sys/mc_cpu/jpc}} {{/mccomp_tb/mccomp_sys/mc_cpu/reg_dest}} {{/mccomp_tb/mccomp_sys/mc_cpu/wn}} {{/mccomp_tb/mccomp_sys/mc_cpu/z}} {{/mccomp_tb/mccomp_sys/mc_cpu/rega}} {{/mccomp_tb/mccomp_sys/mc_cpu/regb}} {{/mccomp_tb/mccomp_sys/mc_cpu/regc}} {{/mccomp_tb/mccomp_sys/mc_cpu/data}} {{/mccomp_tb/mccomp_sys/mc_cpu/opa}} {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_en}} {{/mccomp_tb/mccomp_sys/mc_cpu/write_signature_reg}} {{/mccomp_tb/mccomp_sys/mc_cpu/write_encrypted_ir}} {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_done}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_size}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_type}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_last_word}} {{/mccomp_tb/mccomp_sys/mc_cpu/cii_K}} {{/mccomp_tb/mccomp_sys/mc_cpu/cii_ctl_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/cii_IV_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/dii_data_not_ready}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/Tag_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_data_size}} {{/mccomp_tb/mccomp_sys/mc_cpu/Out_last_word}} {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_out}} {{/mccomp_tb/mccomp_sys/mc_cpu/calculated_signature}} {{/mccomp_tb/mccomp_sys/mc_cpu/fetched_signature}} {{/mccomp_tb/mccomp_sys/mc_cpu/decrypted_ir}} 
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/SI_Reset_N}} {{/mccomp_tb/mccomp_sys/SI_ClkIn}} {{/mccomp_tb/mccomp_sys/q}} {{/mccomp_tb/mccomp_sys/a}} {{/mccomp_tb/mccomp_sys/b}} {{/mccomp_tb/mccomp_sys/alu}} {{/mccomp_tb/mccomp_sys/adr}} {{/mccomp_tb/mccomp_sys/tom}} {{/mccomp_tb/mccomp_sys/fromm}} {{/mccomp_tb/mccomp_sys/pc}} {{/mccomp_tb/mccomp_sys/ir}} {{/mccomp_tb/mccomp_sys/memclk}} {{/mccomp_tb/mccomp_sys/IO_Switch}} {{/mccomp_tb/mccomp_sys/IO_PB}} {{/mccomp_tb/mccomp_sys/IO_LED}} {{/mccomp_tb/mccomp_sys/IO_7SEGEN_N}} {{/mccomp_tb/mccomp_sys/IO_7SEG_N}} {{/mccomp_tb/mccomp_sys/IO_BUZZ}} {{/mccomp_tb/mccomp_sys/IO_SPI_SDO}} {{/mccomp_tb/mccomp_sys/IO_SPI_RS}} {{/mccomp_tb/mccomp_sys/IO_SPI_SCK}} {{/mccomp_tb/mccomp_sys/UART_RX}} {{/mccomp_tb/mccomp_sys/JB}} {{/mccomp_tb/mccomp_sys/data_cpu}} {{/mccomp_tb/mccomp_sys/data_mem}} {{/mccomp_tb/mccomp_sys/sig_mem}} {{/mccomp_tb/mccomp_sys/data_gpio}} {{/mccomp_tb/mccomp_sys/memout}} {{/mccomp_tb/mccomp_sys/dbg_resetn_cpu}} {{/mccomp_tb/mccomp_sys/dbg_halt_cpu}} {{/mccomp_tb/mccomp_sys/wmem}} {{/mccomp_tb/mccomp_sys/clk}} {{/mccomp_tb/mccomp_sys/clrn}} {{/mccomp_tb/mccomp_sys/HSEL}} {{/mccomp_tb/mccomp_sys/dbg_mem_addr}} {{/mccomp_tb/mccomp_sys/dbg_mem_din}} {{/mccomp_tb/mccomp_sys/dbg_mem_cs}} {{/mccomp_tb/mccomp_sys/dbg_mem_we}} {{/mccomp_tb/mccomp_sys/effectiveMemWE}} {{/mccomp_tb/mccomp_sys/effectiveMemCE}} {{/mccomp_tb/mccomp_sys/effectiveMemAddr}} {{/mccomp_tb/mccomp_sys/effectiveRAMDataInput}} {{/mccomp_tb/mccomp_sys/sigout}} {{/mccomp_tb/mccomp_sys/RAM_FILE}} {{/mccomp_tb/mccomp_sys/SIG_FILE}} 
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/sig_ram}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/rst}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+current_wave_config {mccomp_tb_behav.wcfg}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/clk}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/rst}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/dii_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/dii_data_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/dii_data_type}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/dii_data_not_ready}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/dii_last_word}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/dii_data_size}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/cii_ctl_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/cii_IV_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/cii_K}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/Out_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/Out_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/Out_data_size}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/Out_last_word}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/Tag_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/H}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_H}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/EkY0}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_EkY0}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/Yi}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/Yi_init}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/gfm_result}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/enc_byte_cnt}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/aad_byte_cnt}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_Out_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_Tag_vld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/dii_data_star}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_Out_data_star}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_Out_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_Tag_data}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/aes_text_in}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/aes_kld}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/aes_done}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/aes_text_out}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/mux_aes_text_in_sel}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/mux_yi_sel}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/v_in}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/z_in}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/b_in}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/gfm_input1}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/z_out}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/v_out}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/gfm_cnt}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/we_y}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/we_lenA}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/we_lenC}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/start_gfm_cnt}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/state}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/nxt_state}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/IDLE}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/ENCRYPT_0}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/INIT_COUNTER}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/ENCRYPT_Y0}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/DATA_ACCEPT}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/GFM_MULT}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/INC_COUNTER}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/M_ENCRYPT}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/PRE_TAG_CALC}} {{/mccomp_tb/mccomp_sys/mc_cpu/u_dut/TAG_CALC}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+close_sim

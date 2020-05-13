@@ -1,0 +1,163 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Apps/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 7740ca9f7d4d4a3e83660c5c84b536b7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mccomp_tb_behav xil_defaultlib.mccomp_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccomp_sys.v" Line 8. Module mccomp_sys doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccpu.v" Line 6. Module mccpu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mccu.v" Line 6. Module mccu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dffe32.v" Line 6. Module dffe32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dffe32.v" Line 6. Module dffe32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dffe32.v" Line 6. Module dffe32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dffe128.v" Line 6. Module dffe128 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dff32.v" Line 6. Module dff32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/new/dff128.v" Line 6. Module dff128 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dff32.v" Line 6. Module dff32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dff32.v" Line 6. Module dff32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/dff32.v" Line 6. Module dff32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x32.v" Line 6. Module mux2x32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x32.v" Line 6. Module mux2x32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux4x32.v" Line 6. Module mux4x32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x32.v" Line 6. Module mux2x32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x32.v" Line 6. Module mux2x32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x32.v" Line 6. Module mux2x32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux2x5.v" Line 6. Module mux2x5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/mux4x32.v" Line 6. Module mux4x32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/regfile.v" Line 6. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/alu.v" Line 6. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/addsub32.v" Line 6. Module addsub32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla32.v" Line 6. Module cla32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_32.v" Line 6. Module cla_32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_16.v" Line 6. Module cla_16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_8.v" Line 6. Module cla_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" Line 6. Module cla_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" Line 6. Module cla_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_8.v" Line 6. Module cla_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" Line 6. Module cla_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" Line 6. Module cla_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_16.v" Line 6. Module cla_16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_8.v" Line 6. Module cla_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" Line 6. Module cla_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" Line 6. Module cla_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_8.v" Line 6. Module cla_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_4.v" Line 6. Module cla_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/cla_2.v" Line 6. Module cla_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/add.v" Line 6. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/j39950/Desktop/Multi Cycle/mccompFPGA.srcs/sources_1/imports/mccompFPGA/gp.v" Line 6. Module gp doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mccu
+Compiling module xil_defaultlib.dffe32
+Compiling module xil_defaultlib.dffe128
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.dff128
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.mux2x5
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.gp
+Compiling module xil_defaultlib.cla_2
+Compiling module xil_defaultlib.cla_4
+Compiling module xil_defaultlib.cla_8
+Compiling module xil_defaultlib.cla_16
+Compiling module xil_defaultlib.cla_32
+Compiling module xil_defaultlib.cla32
+Compiling module xil_defaultlib.addsub32
+Compiling module xil_defaultlib.shift
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.seqram(A_WIDTH=8)
+Compiling module xil_defaultlib.gcm_aes_controller
+Compiling module xil_defaultlib.gfm128_16
+Compiling module xil_defaultlib.aes_sbox
+Compiling module xil_defaultlib.aes_rcon
+Compiling module xil_defaultlib.aes_key_expand_128
+Compiling module xil_defaultlib.aes_cipher_top
+Compiling module xil_defaultlib.gcm_aes_v0
+Compiling module xil_defaultlib.mccpu
+Compiling module xil_defaultlib.mccomp_decoder
+Compiling module xil_defaultlib.uram(A_WIDTH=8,INIT_FILE="C:/Use...
+Compiling module xil_defaultlib.sigram(A_WIDTH=8,INIT_FILE="C:/U...
+Compiling module xil_defaultlib.milliscounter
+Compiling module xil_defaultlib.regR
+Compiling module xil_defaultlib.microsCounter
+Compiling module xil_defaultlib.toggleBuzz
+Compiling module xil_defaultlib.buzzer
+Compiling module xil_defaultlib.clockdiv
+Compiling module xil_defaultlib.regRen(WIDTH=9)
+Compiling module xil_defaultlib.SPIinitsendFSM
+Compiling module xil_defaultlib.SPItransmitFSM
+Compiling module xil_defaultlib.spi_interface
+Compiling module xil_defaultlib.sevensegdec
+Compiling module xil_defaultlib.counter(WIDTH=16)
+Compiling module xil_defaultlib.counter(WIDTH=3)
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.mux8(WIDTH=4)
+Compiling module xil_defaultlib.sevensegtimer
+Compiling module xil_defaultlib.mcgpio
+Compiling module xil_defaultlib.mccomp_sys
+Compiling module xil_defaultlib.mccomp_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mccomp_tb_behav

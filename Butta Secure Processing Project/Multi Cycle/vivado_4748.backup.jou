@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Apr  6 11:25:37 2019
+# Process ID: 4748
+# Current directory: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7084 C:\Users\nickb\Documents\JHU\612\repo\mips-cpu\RTL\CPUs\Multi Cycle\mccompFPGA.xpr
+# Log file: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/vivado.log
+# Journal file: C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg}
+source mccomp_tb.tcl
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/clk}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/pc}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/encrypted_ir}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_en}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/gcm_aes_done}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/fetched_signature}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/calculated_signature}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/decrypted_ir}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/system_ram/ram}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/i_addi}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/write_encrypted_ir}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/control_unit/wir}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/inst}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/rf/register}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/sig_ram/ram}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/encrypted_ir}} 
+current_wave_config {Untitled 1}
+add_wave {{/mccomp_tb/mccomp_sys/mc_cpu/decrypted_ir}} 
+relaunch_sim
+save_wave_config {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav1.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav1.wcfg}}
+set_property xsim.view {C:/Users/nickb/Documents/JHU/612/repo/VivadoFiles/mccompFPGA/mccompFPGA/mccomp_tb_behav.wcfg {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav1.wcfg} {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav.wcfg} {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccomp_tb_behav1.wcfg}} [get_filesets sim_1]
+close_sim
+close [ open {C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/new/seqram.v} w ]
+add_files {{C:/Users/nickb/Documents/JHU/612/repo/mips-cpu/RTL/CPUs/Multi Cycle/mccompFPGA.srcs/sources_1/new/seqram.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
